@@ -26,9 +26,6 @@ class MainApp(MDApp):
         #Create root widget
         root = MDBoxLayout(orientation='vertical')
 
-        # Add KivyMD components to the root widget
-        label = MDLabel(text="Hello, Shubham", halign="center")
-        root.add_widget(label)
 
         return root
     
@@ -40,8 +37,7 @@ class MainApp(MDApp):
         Window.size = (window_height, window_width) 
         Window.minimum_height = window_height
         Window.minimum_width = window_width
-        # Window.maximum_height = window_height
-        # Window.maximum_width = window_width
+
 
     
 if __name__ == "__main__":
